@@ -50,3 +50,9 @@ daftar_crust = {
     3:"Stuffedcrust Sausage",
     4:"Cheesy Bites"
 }
+# dictionary daftar ukuran
+daftar_ukuran = {
+    1:"Personal",
+    2:"Regular",
+    3:"Large"
+}
