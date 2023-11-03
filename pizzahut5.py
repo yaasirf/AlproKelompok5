@@ -105,4 +105,47 @@ elif crust == 3:
         # jika pelanggan memilih ukuran Large
         # harga pizza akan ditambah Rp.99.091
         harga_pizza += 99091
+#menentukan harga jika pelanggan memilih crust cheesy bites
+elif crust == 4:
+    #harga awal jika memilih crust cheese bites
+    harga_pizza += 54545
+    #menentukan harga berdasarkan ukuran pizza
+    if ukuran == 1:
+        harga_pizza += 0 
+    elif ukuran == 2:
+        #jika pelanggan memilih ukuran reguler
+        #pizza akan ditambah Rp.64.546
+        harga_pizza += 64546
+    else
+    #jika pelanggan memilih ukuran large
+    #harga pizza akan ditambah Rp. 103.637
+    harga_pizza += 103637
+else:
+    print("pilihan toping tidak valid")
+#menawarkan tambahan keju untuk pizza yang dipesan 
+extracheese = input("apakah mau tambahan keju? y/n: ")
+#pelanggan memilih iya atau tidak untuk tambahan keju
+if extracheese == "y"
+    #jika pelanggan mau tambahan keju
+    #menghitung tambahan keju sesuai ukuran
+    if ukuran == 1:
+        #jika pizza personal size
+        #harga akan ditambah Rp. 12.727
+        harga_pizza +=12727
+    elif ukuran == 2:
+        #jika pizza reguler size
+        #harga akan ditambah Rp. 15.455
+        harga_pizza += 15455
+    else:
+        print("pesanan anda tidak paaki extracheese")
+    #menghitung total harga
+    print("===============================")
+    print(f"pesanan anda pizza {pilihan_menu}")
+    print(f"Crust: {pilihan_crust}")
+    print(f"Ukuran: {pilihan_ukuran}")
+    print(f"total harga pesanan anda Rp. {harga_pizza}")
+    print("terimakasih telah memesan di Pizza Hut Delivery!")
+    print("==============================")
+
+
         
